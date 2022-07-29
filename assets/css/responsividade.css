@@ -1,0 +1,100 @@
+@media (min-width: 501px) and (max-width: 750px) {
+    #cabecalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-cafe {
+        height: 320px;
+        width: 245px;
+    }
+    .content {
+        font-size: 25px;
+        width: 350px;
+    }
+    .imagens-cha-cafe img {
+        width: 240px;
+        margin: 20px 10px;
+    }
+    .img-cafe-grao img {
+        width: 370px;
+    }
+    .brindando-cafes {
+        width: 431px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+    #cabecalho {
+        display: inline-block;
+        height: 280px;
+    }
+    .content {
+        font-size: 20px;
+        width: 250px;
+        margin: 40px auto;
+        text-align: center;
+    }
+    .img-cafe {
+        display: none;
+    }
+    .contendo {
+        width: 258px;
+    }
+    .imagens-cha-cafe {
+        display: block;
+    }
+    .imagens-cha-cafe img {
+        margin: 20px auto;
+    }
+    .club-cafe {
+        font-size: 18px;
+        text-align: center;
+    }
+    .img-cafe-grao img {
+        width: 260px;
+    }
+    .registration {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .secao-cafes {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-cafes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        margin-bottom: 20px;
+    }
+    .img-cafes img {
+        width: 100px;
+        height: 110px;
+        padding: 3px;
+    }
+    .mini-content {
+        display: flex;
+        flex-direction: column;
+        width: 248px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    .descricao-customers {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .brindando-cafes {
+        display: none;
+    }
+    .icons img {
+        width: 70px;
+        height: 70px;
+        padding: 15px;
+        background-color: #D9D9D9;
+        margin: 10px;
+    }
+}
